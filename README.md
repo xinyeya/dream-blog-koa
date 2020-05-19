@@ -35,7 +35,6 @@
 | `avatar`      | `file`   | 头像        |
 | `signature`   | `string` | 个人介绍    |
 | `qq`          | `string` | QQ号        |
-| `create_time` | `Date`   | 注册时间    |
 | `article_num` | `int`    | 文章数量    |
 | `praise`      | `int`    | 获赞数量    |
 
@@ -79,7 +78,7 @@
 
 | key  | type     | 描述   |
 | ---- | -------- | ------ |
-| `id` | `string` | 用户id |
+| `id` | `array` | 用户id |
 
 返回数据
 
@@ -117,12 +116,7 @@
 | `title`    | `string` | 文章标题   |
 | `desc`    | `string` | 文章简介     |
 | `content`         | `string`    | 文章内容1     |
-| `uid`         | `string` | 用户id     |
 | `c_id`      | `string`    | 分类id     |
-| `create_time`      | `date`   | 发表时间     |
-| `common_num`   | `int` | 评论条数 |
-| `praise_num`          | `int` | 点赞数     |
-| `update_time` | `Date`   | 修改时间 |
 | `comon_status` | `int`    | 是否开启评论`(0/1)` |
 | `cover`      | `file`    | 文章封面 |
 
@@ -166,7 +160,7 @@
 
 | key  | type     | 描述   |
 | ---- | -------- | ------ |
-| `id` | `string` | 文章id |
+| `id` | `array` | 文章id |
 
 返回数据
 
@@ -245,7 +239,7 @@
 
 | key  | type     | 描述   |
 | ---- | -------- | ------ |
-| `id` | `string` | 分类id |
+| `id` | `array` | 分类id |
 
 返回数据
 
@@ -329,7 +323,7 @@
 
 | key  | type     | 描述   |
 | ---- | -------- | ------ |
-| `id` | `string` | 分类id |
+| `id` | `array` | 分类id |
 
 返回数据
 
@@ -365,7 +359,7 @@
 
 | key  | type     | 描述   |
 | ---- | -------- | ------ |
-| `id` | `string` | 分类id |
+| `id` | `array` | 分类id |
 
 返回数据
 
@@ -447,7 +441,7 @@
 
 | key  | type     | 描述   |
 | ---- | -------- | ------ |
-| `id` | `string` | 友链id |
+| `id` | `array` | 友链id |
 
 返回数据
 
@@ -487,7 +481,6 @@
 | `title`    | `string` | 广告标题 |
 | `link` | `string` | 广告链接 |
 | `img_title` | `file` | 封面图 |
-| `click_num` | `int` | 点击量 |
 
 
 返回数据：
@@ -531,7 +524,7 @@
 
 | key  | type     | 描述   |
 | ---- | -------- | ------ |
-| `id` | `string` | 友链id |
+| `id` | `array` | 友链id |
 
 返回数据
 

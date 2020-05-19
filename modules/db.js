@@ -74,6 +74,19 @@ class Db {
             })
         })
     }
+
+    // 删除
+    remove (collectionName, id) {
+        return new Promise((resolve, reject) => {
+            let sql = `DELETE FROM ${collectionName} WHERE id IN (${id});`
+            mysql.query(sql, (error, results, fields)=>{
+                if (error) {
+                    reject(error)
+                }
+                resolve(results)
+            })
+        })
+    }
 }
 
 module.exports = Db.getInstance()
