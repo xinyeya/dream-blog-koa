@@ -1,213 +1,5 @@
-时间：2020-05-18
-错误：Error: Illegal argument undefined
-    at module.exports (C:\xinye\data\Code\dream-blog\node_modules\md5\md5.js:152:13)
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:38:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
-
-时间：2020-05-18
-错误：Error: Illegal argument undefined
-    at module.exports (C:\xinye\data\Code\dream-blog\node_modules\md5\md5.js:152:13)
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:38:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
-
-时间：2020-05-18
-错误：MongoError: bad sort specification
-    at MessageStream.messageHandler (C:\xinye\data\Code\dream-blog\node_modules\mongodb\lib\cmap\connection.js:261:20)
-    at MessageStream.emit (events.js:210:5)
-    at processIncomingData (C:\xinye\data\Code\dream-blog\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
-    at MessageStream._write (C:\xinye\data\Code\dream-blog\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
-    at doWrite (_stream_writable.js:431:12)
-    at writeOrBuffer (_stream_writable.js:415:5)
-    at MessageStream.Writable.write (_stream_writable.js:305:11)
-    at Socket.ondata (_stream_readable.js:727:22)
-    at Socket.emit (events.js:210:5)
-    at addChunk (_stream_readable.js:309:12)
-
-时间：2020-05-18
-错误：ReferenceError: search is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:9:38
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:373:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-
-时间：2020-05-18
-错误：TypeError: DB.find is not a function
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:9:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:373:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-
-时间：2020-05-18
-错误：TypeError: DB.find is not a function
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:9:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:373:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-
-时间：2020-05-18
-错误：TypeError: DB.find is not a function
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:9:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:373:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-
-时间：2020-05-18
-错误：TypeError: DB.test is not a function
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:8:19
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:373:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-
-时间：2020-05-18
-错误：TypeError: DB.test is not a function
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:8:19
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:373:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-
-时间：2020-05-18
-错误：ReferenceError: pageNo is not defined
-    at C:\xinye\data\Code\dream-blog\modules\db.js:34:108
-    at new Promise (<anonymous>)
-    at Db.find (C:\xinye\data\Code\dream-blog\modules\db.js:30:16)
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:20:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:373:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-
-时间：2020-05-18
-错误：ReferenceError: pageNo is not defined
-    at C:\xinye\data\Code\dream-blog\modules\db.js:34:108
-    at new Promise (<anonymous>)
-    at Db.find (C:\xinye\data\Code\dream-blog\modules\db.js:30:16)
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:20:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:373:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-
-时间：2020-05-18
-错误：ReferenceError: sql is not defined
-    at C:\xinye\data\Code\dream-blog\modules\db.js:36:25
-    at new Promise (<anonymous>)
-    at Db.find (C:\xinye\data\Code\dream-blog\modules\db.js:30:16)
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:20:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:373:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-
-时间：2020-05-18
-错误：ReferenceError: sql is not defined
-    at C:\xinye\data\Code\dream-blog\modules\db.js:36:25
-    at new Promise (<anonymous>)
-    at Db.find (C:\xinye\data\Code\dream-blog\modules\db.js:30:16)
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:20:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:373:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-
-时间：2020-05-18
-错误：ReferenceError: sql is not defined
-    at C:\xinye\data\Code\dream-blog\modules\db.js:38:25
-    at new Promise (<anonymous>)
-    at Db.find (C:\xinye\data\Code\dream-blog\modules\db.js:30:16)
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:20:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:373:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-
-时间：2020-05-18
-错误：ReferenceError: sql is not defined
-    at C:\xinye\data\Code\dream-blog\modules\db.js:38:25
-    at new Promise (<anonymous>)
-    at Db.find (C:\xinye\data\Code\dream-blog\modules\db.js:30:16)
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:20:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:373:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-
-时间：2020-05-18
-错误：ReferenceError: sql is not defined
-    at C:\xinye\data\Code\dream-blog\modules\db.js:38:25
-    at new Promise (<anonymous>)
-    at Db.find (C:\xinye\data\Code\dream-blog\modules\db.js:30:16)
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:20:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:373:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-
-时间：2020-05-18
-错误：ReferenceError: count is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:22:17
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
-
-时间：2020-05-18
-错误：Error: ER_BAD_FIELD_ERROR: Unknown column 'count' in 'field list'
+时间：2020-05-19
+错误：Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'instert into user (username,password,age,sex,status,avatar,desc,qq,create_time) ' at line 1
     at Query.Sequence._packetToError (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
     at Query.ErrorPacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
     at Protocol._parsePacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:291:23)
@@ -221,51 +13,192 @@
     --------------------
     at Protocol._enqueue (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:144:48)
     at Connection.query (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\Connection.js:198:25)
-    at C:\xinye\data\Code\dream-blog\modules\db.js:38:19
+    at C:\xinye\data\Code\dream-blog\modules\db.js:70:19
     at new Promise (<anonymous>)
-    at Db.count (C:\xinye\data\Code\dream-blog\modules\db.js:29:16)
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:19:26
+    at Db.insert (C:\xinye\data\Code\dream-blog\modules\db.js:67:16)
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:37:28
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-
-时间：2020-05-18
-错误：SyntaxError: Unexpected token a in JSON at position 0
-    at JSON.parse (<anonymous>)
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:13:23
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:373:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
 
-时间：2020-05-18
-错误：SyntaxError: Unexpected token a in JSON at position 0
-    at JSON.parse (<anonymous>)
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:13:23
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:373:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-
-时间：2020-05-18
-错误：Error: Cannot enqueue Query after invoking quit.
-    at Protocol._validateEnqueue (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:215:16)
-    at Protocol._enqueue (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+时间：2020-05-19
+错误：Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc,qq,create_time) VALUES ('11111', '593c9b4a9390551d53e5cacf28ebd638', 11, 2,' at line 1
+    at Query.Sequence._packetToError (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:144:48)
     at Connection.query (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\Connection.js:198:25)
-    at C:\xinye\data\Code\dream-blog\modules\db.js:37:19
+    at C:\xinye\data\Code\dream-blog\modules\db.js:70:19
     at new Promise (<anonymous>)
-    at Db.count (C:\xinye\data\Code\dream-blog\modules\db.js:29:16)
-    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:12:26
+    at Db.insert (C:\xinye\data\Code\dream-blog\modules\db.js:67:16)
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:37:28
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-05-19
+错误：ReferenceError: NULL is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:28:42
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-05-19
+错误：Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc,qq,create_time) VALUES ('1111', '593c9b4a9390551d53e5cacf28ebd638', 11, 2, ' at line 1
+    at Query.Sequence._packetToError (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\Connection.js:198:25)
+    at C:\xinye\data\Code\dream-blog\modules\db.js:70:19
+    at new Promise (<anonymous>)
+    at Db.insert (C:\xinye\data\Code\dream-blog\modules\db.js:67:16)
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:38:28
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-05-19
+错误：Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`username`,`password`,`age`,`sex`,`status`,`avatar`,`desc`,`qq`,`create_time` VA' at line 1
+    at Query.Sequence._packetToError (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\Connection.js:198:25)
+    at C:\xinye\data\Code\dream-blog\modules\db.js:70:19
+    at new Promise (<anonymous>)
+    at Db.insert (C:\xinye\data\Code\dream-blog\modules\db.js:67:16)
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:38:28
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-05-19
+错误：Error: ER_DATA_TOO_LONG: Data too long for column 'avatar' at row 1
+    at Query.Sequence._packetToError (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\Connection.js:198:25)
+    at C:\xinye\data\Code\dream-blog\modules\db.js:70:19
+    at new Promise (<anonymous>)
+    at Db.insert (C:\xinye\data\Code\dream-blog\modules\db.js:67:16)
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:38:28
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-05-19
+错误：Error: Unexpected field
+    at makeError (C:\xinye\data\Code\dream-blog\node_modules\multer\lib\make-error.js:12:13)
+    at wrappedFileFilter (C:\xinye\data\Code\dream-blog\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\multer\lib\make-middleware.js:114:7)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (C:\xinye\data\Code\dream-blog\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (C:\xinye\data\Code\dream-blog\node_modules\dicer\lib\HeaderParser.js:68:8)
+
+时间：2020-05-19
+错误：Error: Unexpected field
+    at makeError (C:\xinye\data\Code\dream-blog\node_modules\multer\lib\make-error.js:12:13)
+    at wrappedFileFilter (C:\xinye\data\Code\dream-blog\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\multer\lib\make-middleware.js:114:7)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (C:\xinye\data\Code\dream-blog\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (C:\xinye\data\Code\dream-blog\node_modules\dicer\lib\HeaderParser.js:68:8)
+
+时间：2020-05-19
+错误：Error: Unexpected field
+    at makeError (C:\xinye\data\Code\dream-blog\node_modules\multer\lib\make-error.js:12:13)
+    at wrappedFileFilter (C:\xinye\data\Code\dream-blog\node_modules\multer\index.js:40:19)
+    at Busboy.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\multer\lib\make-middleware.js:114:7)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (C:\xinye\data\Code\dream-blog\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (C:\xinye\data\Code\dream-blog\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (C:\xinye\data\Code\dream-blog\node_modules\dicer\lib\HeaderParser.js:68:8)
+
+时间：2020-05-19
+错误：Error: Illegal argument undefined
+    at module.exports (C:\xinye\data\Code\dream-blog\node_modules\md5\md5.js:152:13)
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:31:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-05-19
+错误：Error: Illegal argument undefined
+    at module.exports (C:\xinye\data\Code\dream-blog\node_modules\md5\md5.js:152:13)
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:31:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-05-19
+错误：Error: Illegal argument undefined
+    at module.exports (C:\xinye\data\Code\dream-blog\node_modules\md5\md5.js:152:13)
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:31:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-05-19
+错误：Error: Illegal argument undefined
+    at module.exports (C:\xinye\data\Code\dream-blog\node_modules\md5\md5.js:152:13)
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:31:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
 

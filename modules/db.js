@@ -25,6 +25,7 @@ class Db {
         })
     }
 
+    // 查询条数
     count (collectionName, searchName, search) {
         return new Promise((resolve, reject) => {
             let sql = ''
@@ -46,18 +47,30 @@ class Db {
     // 查询
     find (collectionName, searchName, search, skips, limits) {
         return new Promise((resolve, reject) => {
-            console.log(search)
             let sql = ''
             if (search == 1) {
                 sql = `select * from ${collectionName} limit ${skips},${limits}` //sql语句
             }else{
                 sql = `select * from ${collectionName} where ${searchName} like '%${search}%' limit ${skips},${limits}` //sql语句
             }
-            mysql.query(sql, function (error, results, fields) {
+            mysql.query(sql, (error, results, fields) => {
                 if(error) {
                     reject(error);
                 }
                 resolve(results) //返回查询数据库的结果
+            })
+        })
+    }
+
+    // 添加
+    insert (collectionName, keys, values) {
+        return new Promise((resolve, reject) => {
+            let sql = 'INSERT INTO ' + collectionName + " (" + keys + ") VALUES (" + values + ");"
+            mysql.query(sql, (error, results, fields)=>{
+                if (error) {
+                    reject(error)
+                }
+                resolve(results)
             })
         })
     }
