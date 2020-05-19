@@ -1,8 +1,7 @@
 const router = require('koa-router')(),
     DB = require('../../../modules/db'),
     md5 = require('md5'),
-    upload = require('../../../modules/file'),
-    sd = require('silly-datetime')
+    upload = require('../../../modules/file')
 
 // 查询用户信息
 router.get('/',async ctx => {
@@ -10,8 +9,10 @@ router.get('/',async ctx => {
     let skips = parseInt(ctx.query.skips) || 0
     let limits = parseInt(ctx.query.limits) || 5
 
+    let columnName = '`id`,`username`,`age`,`sex`,`status`,`desc`,`qq`,`article_num`,`praise`,`create_time`'
+
     let count = await DB.count('user', 'username', search)
-    let data = await DB.find('user', 'username', search, skips, limits)
+    let data = await DB.find('user', columnName, 'username', search, skips, limits)
 
     let res = {}
     res.data = data

@@ -45,14 +45,15 @@ class Db {
     }
 
     // 查询
-    find (collectionName, searchName, search, skips, limits) {
+    find (collectionName, columnName, searchName, search, skips, limits) {
         return new Promise((resolve, reject) => {
             let sql = ''
             if (search == 1) {
-                sql = `select * from ${collectionName} limit ${skips},${limits}` //sql语句
+                sql = "select " + columnName + " from " + collectionName + " limit " + skips + "," + limits //sql语句
             }else{
-                sql = `select * from ${collectionName} where ${searchName} like '%${search}%' limit ${skips},${limits}` //sql语句
+                sql = "select " + columnName + " from " + collectionName + " where " + searchName + " like " + "\'%" + search + "%\'" + " limit " + skips + "," + limits //sql语句
             }
+            console.log(sql)
             mysql.query(sql, (error, results, fields) => {
                 if(error) {
                     reject(error);
