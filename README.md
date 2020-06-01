@@ -2,49 +2,29 @@
 
 ## 用户管理
 
-### 查看用户
+### 查看用户信息
 
-路由：`/admin/user`
+路由：`/admin/users`
 
 请求方式：`GET`
 
 参数：空（可选）
 
-| key      | type     | 描述       |
-| -------- | -------- | ---------- |
-| `search` | `object` | 搜索值     |
-| `skip`   | `int`    | 第几页     |
-| `limit`  | `int`    | 每页多少条 |
-
-
-
-### 添加用户
-路由：`/admin/user/add`
-
-请求方式：`POST`
-
-参数：
-
-| key           | type     |             |
-| :------------ | :------- | ----------- |
-| `username`    | `string` | 用户名      |
-| `password`    | `string` | 密码        |
-| `age`         | `int`    | 年龄        |
-| `sex`         | `string` | 性别        |
-| `status`      | `int`    | 状态`(0/1)` |
-| `avatar`      | `file`   | 头像        |
-| `signature`   | `string` | 个人介绍    |
-| `qq`          | `string` | QQ号        |
-| `article_num` | `int`    | 文章数量    |
-| `praise`      | `int`    | 获赞数量    |
-
-返回数据：
-
-| 数据     | 状态 |
-| -------- | ---- |
-| 添加成功 | 成功 |
-| 添加失败 | 失败 |
-
+返回案例
+```json
+{
+	"code": 200,
+	"msg": "成功",
+	"data": [{
+		"username": "admin",
+		"desc": "11",
+		"qq": "1329132389",
+		"a_num": 0,
+		"p_num": 0,
+		"h_num": 0
+	}]
+}
+```
 
 
 ### 修改用户信息
