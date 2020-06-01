@@ -11,3 +11,55 @@
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
 
+时间：2020-06-01
+错误：TypeError: db is not a function
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:10:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-06-01
+错误：TypeError: db is not a function
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:10:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-06-01
+错误：TypeError: config.getConnection is not a function
+    at C:\xinye\data\Code\dream-blog\modules\db.js:6:16
+    at new Promise (<anonymous>)
+    at db (C:\xinye\data\Code\dream-blog\modules\db.js:5:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:10:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
+时间：2020-06-01
+错误：TypeError: config.getConnection is not a function
+    at C:\xinye\data\Code\dream-blog\modules\db.js:13:16
+    at new Promise (<anonymous>)
+    at db (C:\xinye\data\Code\dream-blog\modules\db.js:12:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:10:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
