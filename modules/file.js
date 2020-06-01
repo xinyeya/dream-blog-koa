@@ -1,14 +1,11 @@
 const multer = require('koa-multer')
+const path = require('path');
 
 const storage = multer.diskStorage({
     destination:'public/uploads/'+new Date().getFullYear() + (new Date().getMonth()+1) + new Date().getDate(),
-    destination(req,res,cb){
-        cb(null,'public/uploads/'+new Date().getFullYear() + (new Date().getMonth()+1) + new Date().getDate());
-    },
-
-    filename(req,file,cb){
+    filename(ctx,file,cb){
         const filenameArr = file.originalname.split('.');
-        cb(null,Date.now() + '-' + filenameArr[filenameArr.length-1]);
+        cb(null,Date.now() + '.' + filenameArr[filenameArr.length-1]);
     }
 });
 

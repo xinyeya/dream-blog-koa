@@ -3,14 +3,20 @@ const app = new (require('koa'))(),
     admin = require('./routes/admin/admin'),
     bodyParser = require('koa-bodyparser')(),
     errorLog = require('./modules/middlewareErr'),
-    cors = require('koa2-cors')
+    cors = require('koa2-cors'),
+    session = require('koa-session')
+
+
 
 // 错误处理中间件
 app.use(errorLog);
 
+// 1.主页静态网页 把静态页统一放到public中管理
+app.use(require('koa-static')(__dirname + '/public'))
+
 // 解决跨域问题
 app.use(cors({
-    origin: function(ctx) { //设置允许来自指定域名请求
+    origin: (ctx) => { //设置允许来自指定域名请求
         // if (ctx.url === '/test') {
         //     return '*'; // 允许来自所有域名请求
         // }
@@ -22,6 +28,20 @@ app.use(cors({
     allowHeaders: ['Content-Type', 'Authorization', 'Accept'], //设置服务器支持的所有头信息字段
     exposeHeaders: ['WWW-Authenticate', 'Server-Authorization'] //设置获取其他自定义字段
 }));
+
+// 设置session
+app.keys = ['some secret hurr'];  /* cookie的签名 */
+const CONFIG = {
+    key: 'koa:sess', /* 默认的cookie签名 */
+    maxAge: 86400000,/* cookie的最大过期时间 */
+    autoCommit: true, /** (boolean) automatically commit headers (default true) */
+    overwrite: true, /** 无效属性 */
+    httpOnly: true, /** (boolean) httpOnly or not (default true) */
+    signed: true, /** 默认签名与否 */
+    rolling: false, /** 每次请求强行设置cookie */
+    renew: false, /** cookie快过期时自动重新设置*/
+};
+app.use(session(CONFIG, app));
 
 app.use(bodyParser);
 

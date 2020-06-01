@@ -658,3 +658,264 @@
     at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
     at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
 
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\upload\1590979743439.jpeg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590979835076.jpeg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590979898860.jpeg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590979933635.jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590980018846.jpeg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590980081621.jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590980095749.jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590980157927.jpeg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590980166417.jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590980180477.jpeg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590980217104.jpeg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590980236164.jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590980254362.jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590980280203.jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590980335221.jpeg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590980361289.jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590980420391.jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\public\uploads\1590980850510.jpeg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\public\uploads\202061\1590980895475-jpeg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\public\uploads\202061\1590981051238-jpeg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\public\uploads\202061\1590981091316-jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\public\uploads\202061\1590981111425-jpeg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\public\uploads\202061\1590981661416-jpeg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\modules\public\file-1726df1c786.jpeg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\modules\public\uploads\file-1726df2a6ed.jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\public\uploads\202061\1590982556460-jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\static\images\file-1590983511354'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\static\uploads\file-1590983559186'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\public\static\uploads\file-1590983598660'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\static\images\file  -  1590983973008'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\public\uploads\202061\1590985867341-jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\public\uploads\202061\1590985895975-jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\public\uploads\202061\1590985911061-jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\public\uploads\202061\1590985986263-jpg'
+
+时间：2020-06-01
+错误：Error: ENOENT: no such file or directory, open 'C:\xinye\data\Code\dream-blog\public\uploads\202061\1590986010123-jpg'
+
+时间：2020-06-01
+错误：TypeError: Cannot read property 'path' of undefined
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:20:30
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-01
+错误：TypeError: Cannot read property 'path' of undefined
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:21:29
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-01
+错误：TypeError: Cannot read property 'path' of undefined
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:21:29
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-01
+错误：TypeError: Cannot read property 'path' of undefined
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:21:29
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-01
+错误：TypeError: Cannot read property 'path' of undefined
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:31:36
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-01
+错误：Error: .keys required for signed cookies
+    at Cookies.set (C:\xinye\data\Code\dream-blog\node_modules\cookies\index.js:109:27)
+    at ContextSession.save (C:\xinye\data\Code\dream-blog\node_modules\koa-session\lib\context.js:338:22)
+    at ContextSession.commit (C:\xinye\data\Code\dream-blog\node_modules\koa-session\lib\context.js:239:16)
+    at session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:46:20)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-01
+错误：TypeError: Cannot read property 'path' of undefined
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:22:40
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-01
+错误：TypeError: Cannot read property 'path' of undefined
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:22:40
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-01
+错误：TypeError: Cannot read property 'destination' of undefined
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:19:30
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-01
+错误：ReferenceError: path is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:34:23
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-01
+错误：TypeError: Cannot read property 'destination' of undefined
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:22:30
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-01
+错误：TypeError: Cannot read property 'destination' of undefined
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:22:22
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-01
+错误：TypeError: Cannot read property 'destination' of undefined
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:23:22
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-01
+错误：ReferenceError: mimeType is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:14:33
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-01
+错误：ReferenceError: mimeType is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\user\index.js:14:33
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
