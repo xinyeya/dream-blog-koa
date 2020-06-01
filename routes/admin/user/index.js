@@ -8,7 +8,6 @@ const g = {}
 // 查询用户信息
 router.get('/', async (ctx) => {
     let res = await db('SELECT username, `desc`, qq, a_num, avatar, p_num, h_num FROM users')
-
     if (res) {
         data = {code: 200, msg: '成功', data: res}
         ctx.body = data
