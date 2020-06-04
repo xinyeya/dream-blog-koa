@@ -267,17 +267,44 @@
 
 参数：空（可选）
 
-| key      | type     | 描述       |
-| -------- | -------- | ---------- |
-| `search` | `object` | 搜索值     |
-| `skip`   | `int`    | 第几页     |
-| `limit`  | `int`    | 每页多少条 |
+| key     | type     | 描述       |
+| ------- | -------- | ---------- |
+| `skip`  | `int`    | 第几页     |
+| `limit` | `int`    | 每页多少条 |
+
+返回数据：
+
+```json
+{
+	"code": 200,
+	"msg": "查询成功",
+	"data": [{
+		"id": 1,
+		"title": "反语",
+		"music": "https://sharefs.yun.kugou.com/202006040937/9e29ea4a94c1a73b0485b36c78eaeb72/G190/M0A/19/15/npQEAF4YclyAbOSfAD7cFW0auNM105.mp3",
+		"singer": "まじ娘",
+		"images": "http://singerimg.kugou.com/uploadpic/softhead/150/20200331/20200331104759985.jpg"
+	}, {
+		"id": 4,
+		"title": "CARAMELLDANSEN(ウッーウッーウマウマ(゜∀゜))(Speedycake Remix)",
+		"music": "http://music.163.com/song/media/outer/url?id=4879880.mp3",
+		"singer": "キャラメル",
+		"images": "http://127.0.0.1:3000undefined"
+	}, {
+		"id": 3,
+		"title": "测试音乐标题",
+		"music": "测试音乐链接",
+		"singer": "测试音乐歌手",
+		"images": "http://127.0.0.1:3000/uploads/202064/1591243326319.jpg"
+	}]
+}
+```
 
 
 
 ### 添加音乐
 
-路由：`/admin/mucic/add`
+路由：`/admin/musics/insert`
 
 请求方式：`POST`
 
@@ -293,10 +320,18 @@
 
 返回数据：
 
-| 数据     | 状态 |
-| -------- | ---- |
-| 添加成功 | 成功 |
-| 添加失败 | 失败 |
+```json
+// 成功案例
+{
+    "code": 200,
+    "msg": "删除成功"
+}
+// 失败案例
+{
+    "code": 500,
+    "msg": "数据不存在"
+}
+```
 
 
 
@@ -376,6 +411,14 @@
 | -------- | ---- |
 | 删除成功 | 成功 |
 | 删除失败 | 失败 |
+
+
+
+# 下面接口开发中
+
+---
+
+
 
 ## 友情链接
 
