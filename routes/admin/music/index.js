@@ -21,15 +21,30 @@ router.get('/', async ctx => {
 
     // 计算越过多少条
     body.pageIndex = (body.pageIndex - 1) * body.pageSize
-    let sql = `SELECT * FROM musics ORDER BY id DESC LIMIT ${body.pageIndex}, ${body.pageSize}`
-    let countSql = 'SELECT count(id) FROM musics'
-    let res = await db(sql)
-    let count = await db(countSql)
-    if (!res) {
-        ctx.body = {code: 500, msg: '查询失败'}
+
+    if (!body.title) {
+        let sql = `SELECT * FROM musics ORDER BY id DESC LIMIT ${body.pageIndex}, ${body.pageSize}`
+        let countSql = 'SELECT count(id) FROM musics'
+        let res = await db(sql)
+        let count = await db(countSql)
+        if (!res) {
+            ctx.body = {code: 500, msg: '查询失败'}
+        }else{
+            ctx.body = {code: 200, msg: '查询成功', data: {res, count}}
+        }
     }else{
-        ctx.body = {code: 200, msg: '查询成功', data: {res, count}}
+        let sql = `SELECT * FROM musics WHERE title LIKE '%${body.title}%' ORDER BY id DESC LIMIT ${body.pageIndex}, ${body.pageSize}`
+        let countSql = `SELECT count(id) FROM musics WHERE title LIKE '%${body.title}%'`
+        let res = await db(sql)
+        let count = await db(countSql)
+        console.log(sql)
+        if (!res) {
+            ctx.body = {code: 500, msg: '搜索失败'}
+        }else{
+            ctx.body = {code: 200, msg: '搜索成功', data: {res, count}}
+        }
     }
+
 })
 
 // 添加音乐
