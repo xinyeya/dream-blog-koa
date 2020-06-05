@@ -37,7 +37,6 @@ router.get('/', async ctx => {
         let countSql = `SELECT count(id) FROM musics WHERE title LIKE '%${body.title}%'`
         let res = await db(sql)
         let count = await db(countSql)
-        console.log(sql)
         if (!res) {
             ctx.body = {code: 500, msg: '搜索失败'}
         }else{
@@ -87,6 +86,24 @@ router.post('/insert', upload.single('file'), async ctx => {
         }else{
             ctx.body = {code: 200, msg: '添加成功'}
         }
+    }
+})
+
+// 删除音乐
+router.delete('/del', async ctx => {
+    let body = ctx.request.body
+    if (!body.id) {
+        ctx.body = {code: 500, msg: '请选择要删除的音乐'}
+        return
+    }
+
+    let sql = `DELETE FROM musics WHERE id=${body.id}`
+    let res = await db(sql)
+
+    if (res.affectedRows == 1) {
+        ctx.body = {code: 200, msg: '删除成功'}
+    }else{
+        ctx.body = {code: 500, msg: '删除失败'}
     }
 })
 
