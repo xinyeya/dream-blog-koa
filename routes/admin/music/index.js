@@ -76,15 +76,30 @@ router.post('/insert', upload.single('file'), async ctx => {
         let images_path = 'http://' + ctx.request.header.host + g.path
         body.images = images_path
         path_status = true
+    }else{
+        path_status = true
     }
 
     if (path_status) {
-        let sql = 'INSERT INTO musics (`title`, `music`, `singer`, `images`) VALUES("'+ body.title + '","' + body.music + '","' + body.singer + '","' + body.images + '")'
-        let res = await db(sql)
-        if (res.affectedRows == 0) {
-            ctx.body = {code: 500, msg: '添加失败'}
+        if (!ctx.request.query.id) {
+            let sql = 'INSERT INTO musics (`title`, `music`, `singer`, `images`) VALUES("'+ body.title + '","' + body.music + '","' + body.singer + '","' + body.images + '")'
+            let res = await db(sql)
+            if (res.affectedRows == 0) {
+                ctx.body = {code: 500, msg: '添加失败'}
+            }else{
+                ctx.body = {code: 200, msg: '添加成功'}
+            }
         }else{
-            ctx.body = {code: 200, msg: '添加成功'}
+            let id = ctx.request.query.id
+
+            let sql = `UPDATE musics SET title='${body.title}', singer='${body.singer}', music='${body.music}', images='${body.images}' WHERE id=${id}`
+            let res = await db(sql)
+
+            if (res.affectedRows === 1) {
+                ctx.body = {code: 200, msg: '修改成功'}
+            }else{
+                ctx.body = {code: 500, msg: '修改失败'}
+            }
         }
     }
 })
@@ -105,6 +120,29 @@ router.delete('/del', async ctx => {
     }else{
         ctx.body = {code: 500, msg: '删除失败'}
     }
+})
+
+
+// 显示要修改的数据
+router.get('/editshow', async ctx => {
+    let id = ctx.request.query.id
+
+    if (!id) {
+        ctx.body = {code: 500, msg: '请选择要修改的音乐id'}
+        return
+    }
+
+    let sql = `SELECT * FROM musics WHERE id=${id}`
+    let res = await db(sql)
+    if (res) {
+        ctx.body = {code: 200, msg: '成功', data: res}
+    }else{
+        ctx.body = {code: 500, msg: '失败'}
+    }
+})
+
+// 修改音乐信息
+router.put('/update', upload.single('file'), async ctx => {
 })
 
 module.exports = router.routes()
