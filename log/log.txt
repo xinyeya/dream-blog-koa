@@ -586,3 +586,55 @@
     at Protocol._parsePacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:291:23)
     at Parser._parsePacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Parser.js:433:10)
 
+时间：2020-06-06
+错误：ReferenceError: res is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\music\index.js:124:5
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+
+时间：2020-06-06
+错误：ReferenceError: res is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\music\index.js:122:5
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+
+时间：2020-06-06
+错误：ReferenceError: res is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\music\index.js:123:5
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+
+时间：2020-06-06
+错误：ReferenceError: idArr is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\music\index.js:117:50
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+

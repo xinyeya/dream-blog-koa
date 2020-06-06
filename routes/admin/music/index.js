@@ -106,22 +106,23 @@ router.post('/insert', upload.single('file'), async ctx => {
 
 // 删除音乐
 router.delete('/del', async ctx => {
-    let body = ctx.request.body
-    if (!body.id) {
+
+    if (!ctx.request.body.id) {
         ctx.body = {code: 500, msg: '请选择要删除的音乐'}
         return
     }
 
-    let sql = `DELETE FROM musics WHERE id=${body.id}`
-    let res = await db(sql)
+    let idArr = ctx.request.body.id
 
-    if (res.affectedRows == 1) {
+    let sql = `DELETE FROM musics WHERE id in (${idArr})`
+    let res = await db(sql)
+    console.log(res)
+    if (res.affectedRows) {
         ctx.body = {code: 200, msg: '删除成功'}
     }else{
         ctx.body = {code: 500, msg: '删除失败'}
     }
 })
-
 
 // 显示要修改的数据
 router.get('/editshow', async ctx => {
