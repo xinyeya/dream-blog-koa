@@ -76,8 +76,16 @@ router.post('/insert', upload.single('file'), async ctx => {
 router.get('/', async ctx => {
     if (ctx.request.query.search) {
         let {pageIndex, pageSize, search} = ctx.request.query
-        ctx.body = '搜索功能开发中'
-        return
+        pageIndex = (pageIndex - 1) * pageSize
+        let sql = "SELECT `id`, `title`, `desc`, `create_time`, `status` FROM articles WHERE title LIKE "+ "'%" + search + "%'"  +" ORDER BY id ASC LIMIT " + pageIndex + "," + pageSize
+        let count_sql = "SELECT count(id) FROM articles WHERE title LIKE " + "'%" + search + "%'"
+        let res = await db(sql)
+        let count = await db(count_sql)
+        if (res) {
+            ctx.body = {code: 200, msg: '搜索成功', data: {res, count}}
+        }else{
+            ctx.body = {code: 500, msg: '搜索失败'}
+        }
     }else{
         let {pageIndex, pageSize} = ctx.request.query
         pageIndex = (pageIndex - 1) * pageSize
