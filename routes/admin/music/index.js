@@ -116,7 +116,7 @@ router.delete('/del', async ctx => {
 
     let sql = `DELETE FROM musics WHERE id in (${idArr})`
     let res = await db(sql)
-    console.log(res)
+
     if (res.affectedRows) {
         ctx.body = {code: 200, msg: '删除成功'}
     }else{

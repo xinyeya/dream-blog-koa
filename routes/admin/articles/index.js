@@ -120,4 +120,24 @@ router.put('/state', async ctx => {
     }
 })
 
+// 删除音乐
+router.delete('/del', async ctx => {
+
+    if (!ctx.request.body.id) {
+        ctx.body = {code: 500, msg: '请选择要删除的文章'}
+        return
+    }
+
+    let idArr = ctx.request.body.id
+
+    let sql = `DELETE FROM articles WHERE id in (${idArr})`
+    let res = await db(sql)
+
+    if (res.affectedRows) {
+        ctx.body = {code: 200, msg: '删除成功'}
+    }else{
+        ctx.body = {code: 500, msg: '删除失败'}
+    }
+})
+
 module.exports = router.routes()
