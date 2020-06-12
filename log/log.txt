@@ -1096,3 +1096,58 @@
     at Protocol._parsePacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Protocol.js:291:23)
     at Parser._parsePacket (C:\xinye\data\Code\dream-blog\node_modules\mysql\lib\protocol\Parser.js:433:10)
 
+时间：2020-06-12
+错误：TypeError: Cannot read property 'toString' of undefined
+    at C:\xinye\data\Code\dream-blog\routes\admin\articles\index.js:223:29
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-12
+错误：ReferenceError: id is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\articles\index.js:226:281
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-12
+错误：ReferenceError: id is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\articles\index.js:227:281
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-12
+错误：ReferenceError: id is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\articles\index.js:227:281
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-12
+错误：ReferenceError: id is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\articles\index.js:227:281
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
