@@ -46,6 +46,7 @@ router.post('/update', upload.single('file'), async ctx => {
         }
     }else{
         body.password = md5(body.password)
+        console.log(body.avatar)
         let res = db("UPDATE users SET username='"+ body.username + "'," + "`password`='" + body.password + "', `desc`='" + body.desc + "', avatar='"+ body.avatar +"',qq='" + body.qq + "' WHERE id=1")
         if (res) {
             ctx.body = {code: 200, msg: '修改成功'}

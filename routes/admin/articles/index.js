@@ -49,6 +49,7 @@ router.post('/insert', upload.single('file'), async ctx => {
 
     // 修改封面路径
     if (body.images == ''){
+        console.log(g.path)
         let images_path = 'http://' + ctx.request.header.host + g.path
         body.images = images_path
         path_status = true

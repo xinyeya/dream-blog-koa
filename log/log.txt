@@ -1151,3 +1151,717 @@
     at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
     at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
 
+时间：2020-06-14
+错误：TypeError: checkToken is not a function
+    at C:\xinye\data\Code\dream-blog\app.js:50:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-06-14
+错误：TypeError: checkToken is not a function
+    at C:\xinye\data\Code\dream-blog\app.js:50:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-06-14
+错误：undefined
+
+时间：2020-06-14
+错误：undefined
+
+时间：2020-06-14
+错误：TypeError: checkToken is not a function
+    at C:\xinye\data\Code\dream-blog\app.js:51:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+
+时间：2020-06-14
+错误：TypeError: checkToken is not a function
+    at C:\xinye\data\Code\dream-blog\app.js:52:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+
+时间：2020-06-14
+错误：TypeError: checkToken is not a function
+    at C:\xinye\data\Code\dream-blog\app.js:52:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+
+时间：2020-06-14
+错误：TypeError: checkToken is not a function
+    at C:\xinye\data\Code\dream-blog\app.js:52:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+
+时间：2020-06-14
+错误：TypeError: checkToken is not a function
+    at C:\xinye\data\Code\dream-blog\app.js:52:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-06-14
+错误：TypeError: checkToken is not a function
+    at C:\xinye\data\Code\dream-blog\app.js:52:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-06-14
+错误：TypeError: checkToken is not a function
+    at C:\xinye\data\Code\dream-blog\app.js:52:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-06-14
+错误：TypeError: createToken is not a function
+    at C:\xinye\data\Code\dream-blog\app.js:57:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-06-14
+错误：ReferenceError: Cannot access 'token' before initialization
+    at C:\xinye\data\Code\dream-blog\app.js:56:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-06-14
+错误：TypeError: createToken is not a function
+    at C:\xinye\data\Code\dream-blog\app.js:55:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-06-14
+错误：undefined
+
+时间：2020-06-14
+错误：undefined
+
+时间：2020-06-14
+错误：undefined
+
+时间：2020-06-14
+错误：undefined
+
+时间：2020-06-14
+错误：undefined
+
+时间：2020-06-14
+错误：undefined
+
+时间：2020-06-14
+错误：TokenExpiredError: jwt expired
+    at C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\app.js:50:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
+时间：2020-06-14
+错误：TokenExpiredError: jwt expired
+    at C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\app.js:50:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
+时间：2020-06-14
+错误：TokenExpiredError: jwt expired
+    at C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\app.js:50:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
+时间：2020-06-14
+错误：TokenExpiredError: jwt expired
+    at C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\app.js:50:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
+时间：2020-06-14
+错误：TokenExpiredError: jwt expired
+    at C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\app.js:50:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
+时间：2020-06-14
+错误：ReferenceError: createToken is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:7:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-06-14
+错误：ReferenceError: createToken is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:7:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-06-14
+错误：ReferenceError: createToken is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:7:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+
+时间：2020-06-14
+错误：ReferenceError: token is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:11:37
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:53:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：TokenExpiredError: jwt expired
+    at C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
+时间：2020-06-14
+错误：TokenExpiredError: jwt expired
+    at C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:15:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:15:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:16:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:17:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:17:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:17:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:17:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:17:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:18:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:18:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:18:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：TokenExpiredError: jwt expired
+    at C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:18:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
+时间：2020-06-14
+错误：TokenExpiredError: jwt expired
+    at C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:20:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
+时间：2020-06-14
+错误：TokenExpiredError: jwt expired
+    at C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:20:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
+时间：2020-06-14
+错误：TokenExpiredError: jwt expired
+    at C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
+    at new Promise (<anonymous>)
+    at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:20:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
+时间：2020-06-14
+错误：Error: Bad "options.expiresIn" option the payload already has an "exp" property.
+    at Object.module.exports [as sign] (C:\xinye\data\Code\dream-blog\node_modules\jsonwebtoken\sign.js:133:20)
+    at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:12:21
+    at new Promise (<anonymous>)
+    at createToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:9:12)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:11:23
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
+
+时间：2020-06-14
+错误：TypeError: Cannot read property 'username' of undefined
+    at C:\xinye\data\Code\dream-blog\app.js:68:42
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-unless\index.js:26:14
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\app.js:36:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:15)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
+时间：2020-06-14
+错误：TypeError: Cannot read property 'username' of undefined
+    at C:\xinye\data\Code\dream-blog\app.js:66:42
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-unless\index.js:26:14
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\app.js:35:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:15)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
+时间：2020-06-14
+错误：TypeError: Cannot read property 'username' of undefined
+    at C:\xinye\data\Code\dream-blog\app.js:67:42
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-unless\index.js:26:14
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\app.js:35:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:15)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+
+时间：2020-06-14
+错误：TypeError: Cannot read property 'id' of undefined
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:11:39
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+
+时间：2020-06-14
+错误：ReferenceError: SECRET is not defined
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:21:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
+

@@ -4,15 +4,19 @@ const app = new (require('koa'))(),
     bodyParser = require('koa-bodyparser')(),
     errorLog = require('./modules/middlewareErr'),
     cors = require('koa2-cors'),
-    session = require('koa-session')
+    koajwt = require('koa-jwt'),
+    static  = require('koa-static'),
+    path = require('path')
 
-
+const staticPath = './public'
 
 // 错误处理中间件
 app.use(errorLog);
 
 // 1.主页静态网页 把静态页统一放到public中管理
-app.use(require('koa-static')(__dirname + '/public'))
+app.use(static(
+    path.join(__dirname, staticPath)
+))
 
 // 解决跨域问题
 app.use(cors({
@@ -29,21 +33,32 @@ app.use(cors({
     exposeHeaders: ['WWW-Authenticate', 'Server-Authorization'] //设置获取其他自定义字段
 }));
 
-// 设置session
-app.keys = ['some secret hurr'];  /* cookie的签名 */
-const CONFIG = {
-    key: 'koa:sess', /* 默认的cookie签名 */
-    maxAge: 86400000,/* cookie的最大过期时间 */
-    autoCommit: true, /** (boolean) automatically commit headers (default true) */
-    overwrite: true, /** 无效属性 */
-    httpOnly: true, /** (boolean) httpOnly or not (default true) */
-    signed: true, /** 默认签名与否 */
-    rolling: false, /** 每次请求强行设置cookie */
-    renew: false, /** cookie快过期时自动重新设置*/
-};
-app.use(session(CONFIG, app));
-
 app.use(bodyParser);
+
+// 中间件对token进行验证
+app.use(async (ctx, next) => {
+    // let token = ctx.header.authorization;
+    // let payload = await util.promisify(jsonwebtoken.verify)(token.split(' ')[1], SECRET);
+    return next().catch((err) => {
+        console.log(err)
+        if (err.status === 401) {
+            ctx.status = 401;
+            ctx.body = {
+                code: 401,
+                msg: err.message
+            }
+        } else {
+            throw err;
+        }
+    })
+});
+
+// 排除不验证的请求
+const SECRET = 'xinye'; // demo，可更换
+app.use(koajwt({ secret: SECRET }).unless({
+    // 登录，注册接口不需要验证
+    path: [/^\/admin\/login/]
+}));
 
 router.use('/admin', admin)
 
