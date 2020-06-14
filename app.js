@@ -37,18 +37,13 @@ app.use(bodyParser);
 
 // 中间件对token进行验证
 app.use(async (ctx, next) => {
-    // let token = ctx.header.authorization;
-    // let payload = await util.promisify(jsonwebtoken.verify)(token.split(' ')[1], SECRET);
     return next().catch((err) => {
-        console.log(err)
         if (err.status === 401) {
             ctx.status = 401;
             ctx.body = {
                 code: 401,
                 msg: err.message
             }
-        } else {
-            throw err;
         }
     })
 });
