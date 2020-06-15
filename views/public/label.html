@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="/static/css/label.css">
+
+<div class="layui-col-lg3 layui-col-md3 layui-col-md-offset1 layui-col-sm3 layui-col-sm-offset1 layui-hide-xs">
+    <div class="label" id="tags">
+        <!--    //第一步：编写模版。你可以使用一个script标签存放模板，如：-->
+        <h3>文章标签</h3>
+        {{each labelList}}
+        <span>{{ $value.title }}</span>
+        {{/each}}
+    </div>
+</div>
+
+<!-- 标签模板 -->
+<script>
+    $('#tags').ready(function() {
+        let tags_a = $("#tags span");
+        tags_a.each((key, val) => {
+            let x = 20;
+            let y = 0;
+            let rand = parseInt(Math.random() * (x - y + 1) + y);
+            $(val).addClass("tags"+rand);
+        })
+    })
+</script>

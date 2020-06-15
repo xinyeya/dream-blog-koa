@@ -1,0 +1,80 @@
+.articles {
+  background-color: #000000;
+  padding: 15px 5px;
+  padding-right: 10px;
+  color: #ffffff;
+  opacity: 0.7;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: url(../assets/image/pointer.png), pointer;
+}
+.articles .img {
+  width: 100%;
+  height: 100%;
+  margin: 0 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.articles .img img {
+  width: calc(100% - 20px);
+  height: 100%;
+}
+.articles .text h3 {
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 1;
+  margin-bottom: 10px;
+}
+.articles .text p {
+  font-size: 13px;
+  line-height: 20px;
+}
+.articles .articles_label {
+  margin: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.articles .articles_label span {
+  display: inline-block;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #FD482C;
+  padding: 3px 5px;
+}
+.articles .time {
+  margin-top: 10px;
+}
+.articles .time i {
+  font-size: 15px;
+  color: #ffffff;
+}
+.articles .time span {
+  font-size: 14px;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page #demo0 {
+  opacity: 0.8;
+  color: #ffffff;
+}
+.page #demo0 a {
+  border: #000000;
+  background-color: #000000;
+}
+.page #demo0 .layui-laypage-em {
+  background-color: #cccccc;
+}
+.articles_text {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.articles_text h3 {
+  text-align: center;
+}
+/*# sourceMappingURL=articles.css.map */

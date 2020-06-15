@@ -387,11 +387,11 @@
     at parse (C:\xinye\data\Code\dream-blog\node_modules\co-body\lib\json.js:55:13)
     at AsyncFunction.module.exports [as json] (C:\xinye\data\Code\dream-blog\node_modules\co-body\lib\json.js:41:20)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async parseBody (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:100:14)
-    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:85:19)
-    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async parseBody (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:100:14)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:85:19)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\home.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:9)
     at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
 
 时间：2020-06-03
@@ -588,55 +588,55 @@
 
 时间：2020-06-06
 错误：ReferenceError: res is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\music\index.js:124:5
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\music\home.js:124:5
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\home.js:41:7)
 
 时间：2020-06-06
 错误：ReferenceError: res is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\music\index.js:122:5
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\music\home.js:122:5
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\home.js:41:7)
 
 时间：2020-06-06
 错误：ReferenceError: res is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\music\index.js:123:5
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\music\home.js:123:5
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\home.js:41:7)
 
 时间：2020-06-06
 错误：ReferenceError: idArr is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\music\index.js:117:50
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\music\home.js:117:50
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\home.js:41:7)
 
 时间：2020-06-07
 错误：Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '','0')' at line 1
@@ -688,29 +688,29 @@
 
 时间：2020-06-09
 错误：ReferenceError: pageIndex is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\articles\index.js:78:121
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\articles\home.js:78:121
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
-    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\home.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
 
 时间：2020-06-09
 错误：ReferenceError: state is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\articles\index.js:110:49
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\articles\home.js:110:49
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\home.js:41:7)
 
 时间：2020-06-09
 错误：Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5,5' at line 1
@@ -1098,84 +1098,84 @@
 
 时间：2020-06-12
 错误：TypeError: Cannot read property 'toString' of undefined
-    at C:\xinye\data\Code\dream-blog\routes\admin\articles\index.js:223:29
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\articles\home.js:223:29
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
-    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\home.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:9)
     at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
 
 时间：2020-06-12
 错误：ReferenceError: id is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\articles\index.js:226:281
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\articles\home.js:226:281
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
-    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\home.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:9)
     at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
 
 时间：2020-06-12
 错误：ReferenceError: id is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\articles\index.js:227:281
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\articles\home.js:227:281
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
-    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\home.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:9)
     at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
 
 时间：2020-06-12
 错误：ReferenceError: id is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\articles\index.js:227:281
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\articles\home.js:227:281
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
-    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\home.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:9)
     at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
 
 时间：2020-06-12
 错误：ReferenceError: id is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\articles\index.js:227:281
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\articles\home.js:227:281
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
-    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:5)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\home.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:9)
     at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
 
 时间：2020-06-14
 错误：TypeError: checkToken is not a function
     at C:\xinye\data\Code\dream-blog\app.js:50:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
-    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\home.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
 
 时间：2020-06-14
 错误：TypeError: checkToken is not a function
     at C:\xinye\data\Code\dream-blog\app.js:50:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
-    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\index.js:41:7)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
+    at async session (C:\xinye\data\Code\dream-blog\node_modules\koa-session\home.js:41:7)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
 
 时间：2020-06-14
 错误：undefined
@@ -1186,132 +1186,132 @@
 时间：2020-06-14
 错误：TypeError: checkToken is not a function
     at C:\xinye\data\Code\dream-blog\app.js:51:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:9)
 
 时间：2020-06-14
 错误：TypeError: checkToken is not a function
     at C:\xinye\data\Code\dream-blog\app.js:52:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:9)
 
 时间：2020-06-14
 错误：TypeError: checkToken is not a function
     at C:\xinye\data\Code\dream-blog\app.js:52:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:9)
 
 时间：2020-06-14
 错误：TypeError: checkToken is not a function
     at C:\xinye\data\Code\dream-blog\app.js:52:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:9)
 
 时间：2020-06-14
 错误：TypeError: checkToken is not a function
     at C:\xinye\data\Code\dream-blog\app.js:52:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
 
 时间：2020-06-14
 错误：TypeError: checkToken is not a function
     at C:\xinye\data\Code\dream-blog\app.js:52:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
 
 时间：2020-06-14
 错误：TypeError: checkToken is not a function
     at C:\xinye\data\Code\dream-blog\app.js:52:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
 
 时间：2020-06-14
 错误：TypeError: createToken is not a function
     at C:\xinye\data\Code\dream-blog\app.js:57:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
 
 时间：2020-06-14
 错误：ReferenceError: Cannot access 'token' before initialization
     at C:\xinye\data\Code\dream-blog\app.js:56:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
 
 时间：2020-06-14
 错误：TypeError: createToken is not a function
     at C:\xinye\data\Code\dream-blog\app.js:55:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
 
 时间：2020-06-14
 错误：undefined
@@ -1340,9 +1340,9 @@
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
     at C:\xinye\data\Code\dream-blog\app.js:50:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
 
 时间：2020-06-14
 错误：TokenExpiredError: jwt expired
@@ -1353,9 +1353,9 @@
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
     at C:\xinye\data\Code\dream-blog\app.js:50:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
 
 时间：2020-06-14
 错误：TokenExpiredError: jwt expired
@@ -1366,9 +1366,9 @@
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
     at C:\xinye\data\Code\dream-blog\app.js:50:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
 
 时间：2020-06-14
 错误：TokenExpiredError: jwt expired
@@ -1379,9 +1379,9 @@
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
     at C:\xinye\data\Code\dream-blog\app.js:50:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
 
 时间：2020-06-14
 错误：TokenExpiredError: jwt expired
@@ -1392,56 +1392,56 @@
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
     at C:\xinye\data\Code\dream-blog\app.js:50:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
 
 时间：2020-06-14
 错误：ReferenceError: createToken is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:7:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:7:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
 
 时间：2020-06-14
 错误：ReferenceError: createToken is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:7:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:7:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
 
 时间：2020-06-14
 错误：ReferenceError: createToken is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:7:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:7:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:11)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:11)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
 
 时间：2020-06-14
 错误：ReferenceError: token is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:11:37
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:11:37
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:9)
     at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
 
 时间：2020-06-14
@@ -1450,11 +1450,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1465,10 +1465,10 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
 
 时间：2020-06-14
 错误：TokenExpiredError: jwt expired
@@ -1478,10 +1478,10 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
 
 时间：2020-06-14
 错误：JsonWebTokenError: jwt malformed
@@ -1489,11 +1489,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1502,11 +1502,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1515,11 +1515,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1528,11 +1528,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:15:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:15:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1541,11 +1541,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:15:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:15:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1554,11 +1554,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1567,11 +1567,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1580,11 +1580,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1593,11 +1593,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1606,11 +1606,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1619,11 +1619,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:14:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:14:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1632,11 +1632,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:16:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:16:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1645,11 +1645,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:17:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:17:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1658,11 +1658,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:17:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:17:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1671,11 +1671,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:17:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:17:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1684,11 +1684,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:17:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:17:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1697,11 +1697,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:17:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:17:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1710,11 +1710,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:18:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:18:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1723,11 +1723,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:18:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:18:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1736,11 +1736,11 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:18:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:18:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
@@ -1751,10 +1751,10 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:18:25
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:18:25
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
 
 时间：2020-06-14
 错误：TokenExpiredError: jwt expired
@@ -1764,10 +1764,10 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:20:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:20:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
 
 时间：2020-06-14
 错误：TokenExpiredError: jwt expired
@@ -1777,10 +1777,10 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:20:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:20:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
 
 时间：2020-06-14
 错误：TokenExpiredError: jwt expired
@@ -1790,10 +1790,10 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:19:13
     at new Promise (<anonymous>)
     at checkToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:18:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:20:21
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:20:21
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
 
 时间：2020-06-14
 错误：Error: Bad "options.expiresIn" option the payload already has an "exp" property.
@@ -1801,67 +1801,67 @@
     at C:\xinye\data\Code\dream-blog\modules\decodetoken.js:12:21
     at new Promise (<anonymous>)
     at createToken (C:\xinye\data\Code\dream-blog\modules\decodetoken.js:9:12)
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:11:23
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:11:23
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:363:16
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:34:12
     at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-router\lib\router.js:368:31)
 
 时间：2020-06-14
 错误：TypeError: Cannot read property 'username' of undefined
     at C:\xinye\data\Code\dream-blog\app.js:68:42
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-unless\index.js:26:14
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-unless\home.js:26:14
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\app.js:36:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:15)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:15)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:15)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:15)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
 
 时间：2020-06-14
 错误：TypeError: Cannot read property 'username' of undefined
     at C:\xinye\data\Code\dream-blog\app.js:66:42
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-unless\index.js:26:14
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-unless\home.js:26:14
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\app.js:35:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:15)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:15)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:15)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:15)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
 
 时间：2020-06-14
 错误：TypeError: Cannot read property 'username' of undefined
     at C:\xinye\data\Code\dream-blog\app.js:67:42
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at C:\xinye\data\Code\dream-blog\node_modules\koa-unless\index.js:26:14
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at C:\xinye\data\Code\dream-blog\node_modules\koa-unless\home.js:26:14
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
     at C:\xinye\data\Code\dream-blog\app.js:35:12
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:15)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
-    at serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:15)
-    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:15)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
+    at serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:15)
+    at dispatch (C:\xinye\data\Code\dream-blog\node_modules\koa-compose\home.js:42:32)
 
 时间：2020-06-14
 错误：TypeError: Cannot read property 'id' of undefined
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:11:39
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:11:39
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:9)
     at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
 
 时间：2020-06-14
 错误：ReferenceError: SECRET is not defined
-    at C:\xinye\data\Code\dream-blog\routes\admin\login\index.js:21:21
+    at C:\xinye\data\Code\dream-blog\routes\admin\login\home.js:21:21
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\index.js:95:5)
-    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\index.js:91:9)
-    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\index.js:53:9)
+    at async bodyParser (C:\xinye\data\Code\dream-blog\node_modules\koa-bodyparser\home.js:95:5)
+    at async cors (C:\xinye\data\Code\dream-blog\node_modules\koa2-cors\dist\home.js:91:9)
+    at async serve (C:\xinye\data\Code\dream-blog\node_modules\koa-static\home.js:53:9)
     at async module.exports (C:\xinye\data\Code\dream-blog\modules\middlewareErr.js:11:9)
 

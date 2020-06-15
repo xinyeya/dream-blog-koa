@@ -6,7 +6,9 @@ const app = new (require('koa'))(),
     cors = require('koa2-cors'),
     koajwt = require('koa-jwt'),
     static  = require('koa-static'),
-    path = require('path')
+    path = require('path'),
+    home = require('./routes/home/home'),
+    render = require('koa-art-template')
 
 const staticPath = './public'
 
@@ -17,6 +19,13 @@ app.use(errorLog);
 app.use(static(
     path.join(__dirname, staticPath)
 ))
+
+// 使用模板引擎
+render(app, {
+    root: path.join(__dirname, 'views'), // 视图的位置
+    extname: '.html', // 后缀名
+    debug: process.env.NODE_ENV !== 'production' // 是否开启调试模式
+});
 
 // 解决跨域问题
 app.use(cors({
@@ -52,10 +61,11 @@ app.use(async (ctx, next) => {
 const SECRET = 'xinye'; // demo，可更换
 app.use(koajwt({ secret: SECRET }).unless({
     // 登录，注册接口不需要验证
-    path: [/^\/admin\/login/]
+    path: [/^\/admin\/login/, /^\/home/, /^\/favicon.ico/, /^\/views/]
 }));
 
-router.use('/admin', admin)
+// router.use('/admin', admin)
+router.use('/home', home)
 
 app.use(router.routes()).use(router.allowedMethods())
 

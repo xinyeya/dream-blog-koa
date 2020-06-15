@@ -1,0 +1,36 @@
+.user {
+  text-align: center;
+  background-color: red;
+  opacity: 0.8;
+  background: none;
+}
+.user div {
+  margin: 10px 0;
+}
+.user .avatar {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 5px !important;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 40px auto;
+}
+.user .avatar img {
+  height: 100%;
+  width: 100%;
+}
+.user .layui-nav {
+  margin-top: 30px;
+  background: none;
+  font-size: 20pt;
+  color: #000;
+}
+.user .layui-nav p {
+  padding: 18px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.user .layui-nav p:hover {
+  color: #FF00FF;
+}
+/*# sourceMappingURL=user.css.map */
