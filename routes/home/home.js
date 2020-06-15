@@ -1,12 +1,15 @@
 const router = require('koa-router')(),
-    db = require('../../modules/db'),
     getLabel = require('./labels')
 
+function parse (data) {
+    return JSON.parse(JSON.stringify(data))
+}
+
 router.get('/', async ctx => {
-    let res = await getLabel()
-    let data = JSON.parse(JSON.stringify(res))
+    // 获取所有数据标签
+    let labelList = parse(await getLabel())
     await ctx.render('index', {
-        labelList:data
+        labelList
     })
 })
 
