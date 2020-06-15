@@ -63,8 +63,9 @@ router.post('/insert', upload.single('file'), async ctx => {
 
     if (path_status) {
         let sql = "INSERT INTO articles (`title`, `desc`, `content`, `images`, `create_time`, `label_id`, `status`) VALUES ('" + body.title + "', '" + body.desc + "', '" + body.content + "', '" + body.images + "', '" + body.create_time + "','" + body.label_id + "','" + body.status + "')";
-
+        let articleNum = "UPDATE users SET a_num=a_num+1 WHERE id=1"
         let res = await db(sql)
+        await db(articleNum)
         if (res.affectedRows === 1) {
             ctx.body = {code: 200, msg: '保存成功'}
         }else{

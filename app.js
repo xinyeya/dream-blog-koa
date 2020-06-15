@@ -64,8 +64,8 @@ app.use(koajwt({ secret: SECRET }).unless({
     path: [/^\/admin\/login/, /^\/home/, /^\/favicon.ico/, /^\/views/]
 }));
 
-// router.use('/admin', admin)
 router.use('/home', home)
+router.use('/admin', admin)
 
 app.use(router.routes()).use(router.allowedMethods())
 

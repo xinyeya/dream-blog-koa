@@ -1,16 +1,19 @@
+<link rel="stylesheet" href="/static/css/user.css">
 
 <!--左边-->
 <div class="layui-col-lg2 layui-col-md2 layui-col-sm2 layui-hide-xs user">
     <!--头像-->
     <div class="avatar">
-        <img src="/static/assets/image/avatar.jpg" alt="头像">
+        <img src={{userInfo[0].avatar}} alt="头像">
     </div>
-    <p>用户名</p>
+    <p style="margin-top: 10px;color: #ffffff;font-size: 20px;">{{userInfo[0].username}}</p>
     <hr class="layui-bg-gray">
     <!--        用户信息-->
-    <div class="layui-row">
+    <div class="layui-row" style="color: #ffffff">
         <div class="layui-col-lg4">
             文章
+            <br>
+            <span>{{userInfo[0].a_num}}</span>
         </div>
         <div class="layui-col-lg4">
             获赞
@@ -39,3 +42,8 @@
         </div>
     </div>
 </div>
+
+
+<script>
+
+</script>
